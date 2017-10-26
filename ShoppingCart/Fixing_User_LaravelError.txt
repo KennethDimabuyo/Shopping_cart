@@ -1,0 +1,12 @@
+use Illuminate\Support\Facades\Schema;
+
+public function boot()
+{
+    Schema::defaultStringLength(191);
+}
+
+or 
+
+just try to specify if how many string will be inputted
+
+$table->string('email', 150)->unique;
