@@ -1,0 +1,345 @@
+.center {
+	margin: auto;
+	text-align: center;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	top: 100px;
+	margin-top: 100px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+.products_wrap {
+	border: 1px solid gray;
+	width: 270px;
+	height: 360px;
+	margin-left: 35px;
+	margin-bottom: 20px;
+	float: left;
+	position: relative;
+}
+.products_wrap img {
+	width: 270px;
+	height: 360px;
+	display: block;
+}
+.large-space {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 100px;
+}
+
+.large-space h2 {
+	color: #0d0b09;
+	text-align: center;
+	font-size: 52px;
+	font-family: tahoma;
+	font-weight: lighter;
+	transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.large-space p {
+	color: #808080;
+	text-align: center;
+	font-size: 18px;
+	font-weight: lighter;
+	font-family: tahoma;
+}
+
+.product_wrap a {
+	text-decoration: none;
+}
+
+
+/*Cart Design*/
+.cart-wrap {
+	position: relative;
+	top: 100px;
+	margin-top: 30px; 
+	font-size: 18px;
+}
+.empty {
+	text-align: center;
+	padding: 15px;
+	width: 84.6%;
+	background-color: #283338;
+	position: absolute;
+	margin-top: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*Tables*/
+.table {
+	width: 85%;
+	min-width: 85%;
+	background: transparent;
+	margin-bottom: 1rem;
+	position: relative;
+	left: 7.5%;
+}
+
+.table td {
+	padding: 0.75rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-inverse.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/*Buttons*/
+.btn-success {
+	bottom: 2%;
+	right: 2%;
+	position: absolute;
+	background-color: green;
+	color: white;
+	padding: 13px;
+	border: none;
+	border-radius: 3px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	opacity: 0.9;
+	transition: all 0.3s ease-in-out;
+}
+
+/*Item Tag*/
+.item__tag {
+	position: absolute;
+	bottom: 5%;
+	background-color: black;
+	color: white;
+	padding: 2px 8px;
+}
+
+/*Sign up*/
+.bg-login {
+	background-image: url(/img/2Girls.jpg);
+	background-size: cover;
+	height: 638px;
+}
+.user-box {
+	position: absolute;
+	margin-top: 4.5%;
+	width: 350px;
+	height: 450px;
+	top: 50%;
+	left: 50%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.9);
+	transform: translate(-50%, -50%);
+}
+.user-box1 {
+	position: absolute;
+	margin-top: 3.8%;
+	width: 350px;
+	height: 410px;
+	top: 50%;
+	left: 50%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.9);
+	transform: translate(-50%, -50%);
+}
+.user-logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+.kl-h21 {
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	margin-top: 70px;
+	text-align: center;
+}
+.user-box p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.user-box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.user-box input[type="text"],
+.user-box input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+/*User Box1*/
+.user-box1 p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.user-box1 input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.user-box1 input[type="text"],
+.user-box1 input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.user-box1 input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #002a50;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+.user-box1 a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+::placeholder {
+	color: rgba(255,255,255,.5);
+}
+.user-box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #002a50;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+	transform: scale(1.01);
+	background-color: #69986f;
+}
+
+.user-box a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+.forget-pass {
+	margin-right: 150px;
+}
+
+.sign-in{
+	border:none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #34a853;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 30px;
+	transition: 0.2s ease-in-out;
+}
+
+.sign-up {
+	margin-top: 12px;
+	border:none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #2a5337;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+/*Modal*/
+#white-background {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fefefe;
+	z-index: 999;
+	opacity: 0.7;
+}
+
+#klbox {
+	/*Hidden Box*/
+	display: none;
+	position: fixed;
+	background-color: #7c7d7e;
+	width: 480px;
+	border-radius: 10px;
+	z-index: 9999;
+}
+
+#kl-header {
+	background-color: #002a50;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px 10px 0 10px;
+}
+#kl-body {
+	background-color: white;
+	color: black;
+	font-size: 14px;
+	padding: 10px;
+	margin: 0px 10px 0 10px;
+}
+#kl-footer {
+	background-color: #f2f2f2;
+	text-align: right;
+	padding: 10px;
+	margin: 0 10px 10px 10px;
+}
+#kl-footer button {
+	background-color: #002a50;
+	color: white;
+	padding: 5px;
+	border: 0px;
+}
+
+/*Right*/
+.right {
+	float: right;
+}
